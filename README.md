@@ -9,3 +9,5 @@ The path for the index.html file is:
 dbs-prediction/templates/index.html
 
 Enjoy!
+Evan Doo 
+Seminar Group 3
