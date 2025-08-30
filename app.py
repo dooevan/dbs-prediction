@@ -9,6 +9,7 @@ def i():
     if request.method == "POST":
         num = float(request.form.get("rates"))
         result = model.predict([[num]])[0]  # ML prediction
+        result = round(result, 2)
         return render_template("index.html", result=result)
     else:
         return render_template("index.html", result="Waiting……….")
